@@ -1,0 +1,718 @@
+@media only screen and (max-width: 1200px) {
+    .navOuter_bl nav ul li {
+        margin: 0 2px;
+        font-size: 14px;
+    }
+    .howToScanshop .howToScanshopInner .howToCntnt .howToCntntBox > div i {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .whyScanshop .whyScanshopInner .scanshopFeatures .featureOption .iconOuter i {
+        font-size: 44px;
+    }
+    .whyScanshop .whyScanshopInner .scanshopFeatures .featureOption .iconOuter {
+        margin-bottom: 20px;
+    }
+    .howToScanshop .howToScanshopInner .howToCntnt .howToCntntBox {
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+    .howToScanshop .howToScanshopInner .howToCntnt .howToCntntBox > div {
+        height: 165px;
+        padding: 0;
+    }
+    .howToScanshop .howToScanshopInner {
+        padding: 90px 0;
+    }
+    .pageTitle {
+        margin-bottom: 30px;
+    }
+    .creadit-btn .themeBtn {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .box-cont .box h2 {
+        font-size: 16px;
+    }
+    .box-cont .box i {
+        font-size: 30px;
+    }
+    .creditRate li {
+       padding: 5px 0;
+    }
+    .themeBtn {
+        font-size: 14px;
+        padding: 8px 35px;
+    }
+    .mainNavOuter .mainNav ul li {
+        margin-right: 42px;
+    }
+    .mainNavOuter .mainNav ul li a {
+        padding: 10px 0;
+    }
+    .navbar {
+        min-height: 0;
+        margin-bottom: 20px;
+    }
+    footer {
+        padding: 15px 0;
+    }
+    .partnerSearch h4 {
+        font-size: 18px;
+    }
+    .table.customTable tr th {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    .table.customTable tr td {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    .customTabs ul li a {
+        font-size: 13px;
+        padding: 12px 5px;
+        min-width: 115px;
+        border-bottom: 1px solid #fff;
+    }
+    .bottomBtn {
+        margin-top: 20px;
+    }
+    .howbox .playIcon {
+        top: calc(50% - 17px);
+        left: calc(50% - 17px);
+        width: 34px;
+    }
+    .mainform form .formSectionTitle {
+        margin: 15px 0 25px;
+    }
+    .box.sociallinks ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .box.websitebox ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .righttext {
+        font-size: 14px;
+    }
+    .righttext i {
+        font-size: 18px;
+    }
+    .feildOuter {
+        padding: 0 10px;
+    }
+    .feildOption span {
+        width: 48%;
+    }
+    .addressBox h4 , .addressBox h5{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .payment-head .paymentList li {
+        margin-right: 15px;
+    }
+    .payment-head {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .blog-img {
+        margin: 0 20px 20px 0;
+    }
+    .aboutPage p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+    .bannerOuter .container {
+        padding-top: 70px;
+    }
+    .logoOuter_bl {
+    padding: 15px 60px 15px 0px;
+}
+.navOuter_bl {
+    width: 69%;
+}
+.navOuter_bl nav ul li {
+    margin: 0px;
+    font-size: 13px;
+}
+.navOuter_bl nav ul li a{
+    padding: 0 3px 8px;
+}
+.navOuter_bl nav {
+    padding: 26px 0px 0 0px;
+}
+    .getApp .getAppInner p {
+        font-size: 14px;
+    }
+    .getApp .getAppInner .bottomLinks {
+        margin-top: 25px;
+    }
+    .productSect {
+        padding: 10px;
+        margin-right: 0;
+    }
+    .productDetail {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.productDetail p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+    .anaysis-section p {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .avalableCreditBox h4 {
+        font-size: 32px;
+    }
+.line-title {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.detail-info .left-info {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.detail-info .rightInfo {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+    .detailpage .box {
+        padding: 20px 15px;
+    }
+    .logo {
+        padding-right: 15px;
+        margin-right: 10px;
+    }
+    .logo img{
+        width:138px;
+    }
+    .creditAmount {
+        margin-right: 45px;
+    }
+    .mainNavOuter .mainNav ul li {
+        margin-right: 25px;
+    }
+    .mainNavOuter .mainNav ul li a {
+        font-size: 14px;
+    }
+    .mainNavOuter .mainNav ul li a i {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .logouploadSec .howbox .imgbox img {
+        object-fit: contain;       
+    }
+    .mainform form .fieldOuter label {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .howbox .closeBtn {
+        top: -10px;
+        right: 4px;
+        height: 24px;
+        width: 24px;
+        background-size: 100% 100%;
+    }
+    .bottomBtn {
+        margin-top: 30px;
+    }
+    .mainform form .fieldOuter input, .mainform form .fieldOuter select {
+        padding: 10px 10px;
+        width: 100%;   
+        font-size: 14px;
+    }
+    .mainform form .fieldOuter.uploadbtn h3 {
+        font-size: 13px;
+        padding: 12px;
+    }
+    .mainform form .fieldOuter.uploadbtn label {
+        padding: 20px 0;
+        min-height: 105px;
+        font-size: 14px;
+   }
+   .mainform form .fieldOuter.uploadbtn > div {
+        width: 100%;
+    }
+    .mainform form .fieldOuter.text-right label{
+        margin-left: 0;
+    }
+    .mainform form .fieldOuter textarea {
+        width: 100%;
+    }
+    .box h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+     .feildOuter {
+    width: 50%;
+    padding: 0 15px;
+}
+.feildOuter.feildOption {
+    width: 50%;
+}
+.feildOuter .checklist label {
+    font-size: 13px;
+}
+.dashboardCntnt .titleText h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+ .leftCntnt > span {
+       font-size: 12px;
+    }
+    .bannerOuter .bannerInner .bannerCntnt .btnOuter {
+        margin-top: 25px;
+    }
+    .bannerOuter .bannerInner .bannerCntnt h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .faqPage h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .faqPage p {
+        margin-bottom: 20px;
+    }
+    .faqPage .panel-title a {
+    padding: 20px 0;
+}
+.faqPage .panel-title a::before {
+    top: 16px;
+}
+.table.partnerTable > tbody > tr > td {
+    padding: 15px 10px;
+}
+.BlogPage h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+.BlogPage p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+}
+@media only screen and (max-width: 767px) {
+    .blog-img{
+        width: 100%;
+    }
+    .partnerTable td:first-child{
+        width: auto;
+    }
+    .table.partnerTable > tbody > tr > td {
+        padding: 12px 15px;
+    }
+    .partnerTable h3 {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .partnerTable h2 {
+        font-size: 16px;
+    }
+    .faqPage h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .faqPage p {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    main.forgotPassword .contentOuter_bl .content_area_bl .title {
+        font-size: 18px;
+    }
+    footer#pwdPage {
+        position: static;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+.formOuter_bl .fieldOuter_bl label {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+.contentOuter_bl .content_area_bl {
+    display: block;
+    padding: 40px 0;
+}
+.formOuter_bl .fieldOuter_bl input {
+    padding: 8px 10px;
+}
+.formOuter_bl .formBtn {
+    margin-top: 5px;
+}
+.formOuter_bl .formBtn input {
+    font-size: 14px;
+    padding: 10px 35px;
+    border-width: 1px;
+}
+    .faqPage .panel-title a {
+    padding: 15px 0;
+}
+.faqPage .panel-body {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.faqPage .panel-title a::before {
+    top: 18px;
+    right: 10px;
+    font-size: 10px;
+}
+    .mainContainer .pageTitle {
+     margin-bottom: 40px;
+}
+    .mainContainer {
+        padding-top: 90px;
+        min-height: 10px;
+    }
+    .navOuter_bl nav ul li a:hover, .navOuter_bl nav ul li a.active {
+    color: #fff;
+}
+    .logoOuter_bl {
+    padding: 15px;
+}
+    .navOuter_bl {
+        width: 100%;
+    }
+    .navOuter_bl nav {
+    padding: 0;
+    margin: 0;
+    background-color: #2c66b0;
+}
+.landingPage .container{
+    padding: 0;
+}
+    .logoOuter_bl::after {
+    content: none;
+}
+.navOuter_bl nav ul li a, .navOuter_bl nav ul li a:hover {
+    color: #fff;
+}
+    .logoOuter_bl img {
+        width: 120px;
+    }
+    .landingPage .navbar-header {
+        width: auto;
+        margin: 22px 15px;
+        float: right;
+    }
+    .navOuter_bl nav ul li {
+    margin: 8px 0;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+    .bannerOuter {
+        height: auto;
+    }
+    .bannerOuter .container {
+        width: 100%;
+    }
+    .bannerOuter .bannerInner .bannerCntnt p {
+        font-size: 14px;
+    }
+    .bannerOuter .bannerInner .bannerCntnt h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .bannerInner {
+        padding: 30px 0px;
+    }
+    .squreBtn {
+        padding: 10px 10px;
+    }
+    .bannerOuter .container:before{
+        content: none;
+    }
+    .whyScanshop .whyScanshopInner .scanshopFeatures .featureOption {
+        margin-bottom: 30px;
+    }
+    .whyScanshop .whyScanshopInner .scanshopFeatures .featureOption::after {
+        content: none;
+    }
+    .whyScanshop .whyScanshopInner .scanshopFeatures .featureOption .iconOuter {
+        margin-bottom: 10px;
+    }
+    .whyScanshop .whyScanshopInner .scanshopFeatures {
+        margin: 15px 0 15px;
+    }
+    .whyScanshop .whyScanshopInner .scanshopFeaturesDisc .featureDetialBox .pageTitle {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .aboutScanshop .aboutScanshopInner, .whyScanshop .whyScanshopInner {
+        width: 100%;
+        padding: 60px 0 0px;
+    }
+    .socialIcons{
+    text-align: center;
+    margin-top:10px;
+}
+.scanshopFeaturesDisc  p{
+    font-size: 14px;
+}
+footer .footerInner .copyright_bs {
+    text-align: center;
+}
+    .bottomLinks a {
+        max-width: 46%;
+    }
+    .getApp .getAppInner {
+        padding: 25px 0;
+    }
+    .getImage {
+        text-align: center;
+    }
+    .getImage .img-responsive{
+        display: inline-block;
+    }
+    .pageTitle {
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    .howToScanshop .howToScanshopInner .howToCntnt .howToCntntBox {
+        margin-top: 15px;
+    }
+    .howToScanshop .howToScanshopInner {
+        padding: 45px 0;
+    }
+    .userInfo .userImg {
+    height: 25px;
+    width: 25px;
+}
+.userInfo .dropdown button {
+    font-size: 10px;
+    margin-left: 0;
+}
+.userInfo .userImg img {
+   min-height: 25px;
+}
+    .creditAmount {
+    margin-right: 25px;
+}
+.notifivation {
+    margin-right: 20px;
+}
+    .payment-head .paymentList li {
+    margin-right: 0;
+    display: block;
+}
+.payment-head {
+    font-size: 14px;
+}
+.box.storeMember .list {
+    padding-top: 15px;
+}
+    .dashboardCntnt .mainTitle .titleIcon i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+   .DeliecveryOption.mainform form .formSectionTitle {
+    margin: 0px 0 20px;
+}
+    .adminPage header .container , .adminPage .mainNavOuter .container , .adminPage .navbar-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    .detail-info .left-info {
+    margin-bottom: 5px;
+}
+.mainform form .formSectionTitle {
+    margin: 15px 0 20px;
+}
+.box.storeMember .list span {
+    margin-bottom: 15px;
+    display: block;
+}
+
+    .text-right.rightCntnt {
+    text-align: left;
+}
+
+    .leftCntnt {
+        margin-bottom: 10px;
+    }
+    .topHeader {
+    padding: 10px 0;
+}
+    .logo img {
+        width: 115px;
+    }
+    .table.customTable tr th {
+        padding: 8px 10px;
+    }
+    .tableOuter .partnerSearch .searchbar input[type="text"] {
+        padding: 0 5px 8px 0;
+        font-size: 14px;
+    }
+    .tableOuter .partnerSearch .searchbar button {
+        right: 17px;
+        top: 0;
+    }
+    .table.customTable tr td {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+    .partnerSearch h4 {
+        font-size: 15px;
+        padding-left: 0;
+    }
+    .tableOuter .partnerSearch {
+        padding: 10px 10px;
+    }
+    .logouploadSec .howbox .imgbox img {
+        object-fit: none;
+    }
+    .howbox .imgbox::before {
+        padding-bottom: 70%;
+    }
+    .mainTitle {
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 100%;
+    } 
+    .mainform form .formSectionTitle h2 .textBg {
+        font-size: 18px;
+    }
+    .mainform form .formSectionTitle h2::after {
+        top: calc(50% - 2px);
+    }
+    .mainform.createDeliverypage form .formSectionTitle {
+        margin: 20px 0 30px;
+    }
+    .titleText.displaymidle {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .dashboardCntnt .titleText h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .dashboardCntnt .titleText span {
+        font-size: 13px;
+        padding: 0;
+    }
+    .dashboardCntnt {
+        padding: 20px 15px;
+        min-height: calc(100vh - 164px);
+    }
+    .themeBtn {
+        font-size: 14px;
+        padding: 8px 30px;
+        border-width: 1px;
+        text-align: center;
+    }    
+    .mainNavOuter .mainNav ul li {
+        margin-right: 0;
+        display: block;
+    }
+    .minusPlus{
+        margin-bottom: 8px;
+    }
+    .minusPlus button {
+        padding: 5px 10px;
+    }
+    .minusPlus input {
+        width: 60px;
+    }
+    .deliveryOptionsInfo .form-control.custmInput {
+        font-size: 14px;
+        padding: 10px 10px;
+        min-width: 10px;
+        max-width: 100%;
+    }
+    footer {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .report-btns .themeBtn {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .bottomBtn .themeBtn , .creadit-btn .themeBtn {
+   margin-bottom: 5px;
+        text-align: center;
+}
+    .table.customTable.artical-table tr td:first-child {
+        width: auto;
+    }
+    .customTabs {
+        margin-top: 30px;
+    }
+    .customTabContent .title {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    .customTabs ul li a {
+        padding: 8px 5px;
+        min-width: 120px;
+    }
+    .managebtn {
+        top: -8px;
+    }
+    .bychoice strong {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .mainform form .formSectionTitle h2 .textBg {
+        padding-right: 4px;
+    }
+ 
+.mainform form .fieldOuter.productDetailOuter {
+    margin-bottom: 0;
+}
+    .tableOuter .partnerSearch .searchbar {
+        max-width: 360px;
+    }   
+    .blog-img {
+        max-width: 100%;
+        margin: 0 0px 20px 0;
+    }
+    .boxBlogInner .blogInner-img::before , .boxBlogInner:nth-child(2) .blogInner-img::before{
+   padding-bottom: 70%;
+}
+    .blogboxshadhow {
+    margin-bottom: 20px;
+}
+.mainContainer .pageTitle {
+    margin-bottom: 20px;
+}
+.boxBlogInner .pageTitle {
+   font-size: 18px;
+}
+}
+@media only screen and (max-width: 479px) {
+    .formOuter_bl .keepLogin.fieldOuter_bl div {
+    padding: 0;
+    border-right: 0 none;
+    width: 100%;
+    margin-top: 5px;
+}
+    .bottomBtn a:first-child {
+    margin-right: 0;
+}
+    .report-btns .themeBtn , .creadit-btn .themeBtn {
+        display: block;
+    }
+    .bottomBtn .themeBtn {
+        display: block;
+    }
+    .feildOuter {
+        width: 100%;
+    }
+    .feildOuter.feildOption {
+        width: 100%;
+    }
+    .feildOuter .checklist {
+        margin: 5px 0;
+    }
+    .feildOption span {
+        text-align: right;
+    }
+
+}

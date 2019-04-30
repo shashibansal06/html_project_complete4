@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1 , maximum-scale=1 , minimum-scale=1" name="viewport">
+    <title>Scanshop | Product Detail</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--font-css-->
+    <link href="fonts/font/stylesheet.css" rel="stylesheet" />
+    <!--custom-font-css-->
+    <link href="fonts/font/custom-font/style.css" rel="stylesheet" />
+    <!--main-css-->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!--bootstrap-js-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <main class="mainOuter adminPage afterlogin">
+       <header>
+            <div class="container">
+                <div class="topHeader">
+                    <div class="row">                        
+                        <div class="col-xs-12 col-sm-6 col-md-6 leftCntnt">
+                            <div class="logo displaymidle">
+                                <img src="images/blueLogo.png" alt="blueLogo">
+                            </div>
+                            <span class="displaymidle">Scanshop Admin Platform</span>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 text-right rightCntnt">
+                            
+                            <div class="creditAmount displaymidle">
+                                <span class="displaymidle">Credit: &euro;</span><label class="displaymidle"><select>
+                                    <option>00.00</option>
+                                    <option>01.00</option>
+                                </select>
+                                </label>
+                            </div>
+
+                            <div class="userInfo displaymidle">
+                                <div class="userImg displaymidle">
+                                    <img src="images/user-img.png" alt="user-img">
+                                </div>
+                                <div class="dropdown displaymidle">
+                                <button class="dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                    <i class="icon-down-arrow"></i>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
+                                </ul>
+                              </div>
+
+                            </div>
+                            <div class="navbar-header displaymidle">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="mainNavOuter navbar">
+                    <div class="container">
+                        
+                        <div class="mainNav collapse navbar-collapse" id="myNavbar">
+                            <ul>
+                                <li class="active">
+                                    <a href="#"><i class="icon-homefill"></i><span>Home</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-manageProduct"></i><span>Manage Products</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-images"></i><span>Manage Images</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-code"></i><span>Generate codes</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-upload"></i><span>Upload</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-help"></i><span>Help</span></a>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <section class="dashboardCntnt">
+            <div class="container">
+                <div class="row">
+                <div class="mainTitle">
+                    <div class="titleIcon displaymidle">
+                        <i class="icon-manageProduct"></i>
+                    </div>
+
+                    <div class="titleText displaymidle">
+                        <h2>Manage Products</h2>
+                        <span>Home > <samp>Manage Credits</samp></span>
+                    </div>
+                </div>      
+                </div>
+
+                <div class="mainform row">
+                    <form>
+                        <div class="row">
+                            <div class="fieldOuter productDetailOuter col-xs-12 col-sm-6 col-md-6 text-center">
+                                <div class="productSect">
+                                    <img src="images/product-img.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 productDetail">
+                                <h3>Please Note</h3>
+                                <p>Updates will take effect immediately.<br>Any temporary price i.e. sale price will be communicated to users instantly.</p>
+                                <a href="#" class="themeBtn">Change / Upload</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Item Group ID</label>
+                                <input type="text" name="fresh-store" placeholder="IKYTR5678830">
+                            </div>
+
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>Brand Name</label>
+                                <input type="text" name="name" placeholder="Brand">
+                            </div>
+
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>SKU / Product ID</label>
+                                <input type="text" name="name" placeholder="5487552GHG78">
+                            </div>
+
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>Product Name</label>
+                                <input type="email" name="name" placeholder="Shirt">
+                            </div>
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Description</label>
+                                <textarea class="min-height-155"></textarea>
+                            </div>
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <div class="form-group">
+                                    <label>Product Category ID</label>
+                                    <input type="text" name="name" placeholder="4582">
+                                </div>
+                                <div class="form-group">
+                                    <label>Product Web Link</label>
+                                    <input type="text" name="name" placeholder="www.product.com/shirt/hg78">
+                                </div>
+                            </div>
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Image Link</label>
+                                <input type="text" name="name" placeholder=" www.product.com/shirt/hg78  ">
+                            </div>
+
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>Currency</label>
+                                <input type="text" name="name" placeholder="GBP">
+                            </div>
+                            
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Price</label>
+                                <input type="text" name="name" placeholder="253">
+                            </div>
+                            
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>Adult Product 18 yrs</label>
+                                <input type="text" name="name" placeholder="Yes">
+                            </div>
+                            
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Color</label>
+                                <input type="text" name="name" placeholder="Black">
+                            </div>
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>Size</label>
+                                <input type="text" name="name" placeholder="M">
+                            </div>
+                            
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Flavour</label>
+                                <input type="text" name="name" placeholder="">
+                            </div>
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>Quantity</label>
+                                <input type="text" name="name" placeholder="">
+                            </div>
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Type</label>
+                                <input type="text" name="name" placeholder="Wearable">
+                            </div>
+
+                            <div class="col-xs-12 bottomBtn">
+                                <a href="#" class="themeBtn">Save Changes</a>
+                                <a href="#" class="themeBtn grey">Back</a>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="copyright_bs text-center">
+                <p>Copyright© 2010 - 2018 <span>Scan Shop</span>, All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

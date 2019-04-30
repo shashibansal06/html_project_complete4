@@ -1,0 +1,446 @@
+@media only screen and (max-width: 1400px) {
+    .contentOuter_bl .content_area_bl .title {
+        font-size: 30px;
+    }
+    .formOuter_bl .fieldOuter_bl input {
+        padding: 12px 10px;
+    }
+    .howbox .closeBtn {
+        top: -10px;
+        height: 24px;
+        width: 24px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .themeBtn {
+        font-size: 14px;
+        padding: 8px 35px;
+    }
+    .mainNavOuter .mainNav ul li {
+        margin-right: 42px;
+    }
+    .mainNavOuter .mainNav ul li a {
+        padding: 10px 0;
+    }
+    .navbar {
+        min-height: 0;
+        margin-bottom: 20px;
+    }
+    footer {
+        padding: 15px 0;
+    }
+    .partnerSearch h4 {
+        font-size: 18px;
+    }
+    .table.customTable tr th {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    .table.customTable tr td {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    .customTabs ul li a {
+        font-size: 13px;
+        padding: 12px 5px;
+        min-width: 115px;
+        border-bottom: 1px solid #fff;
+    }
+    .bottomBtn {
+        margin-top: 20px;
+    }
+   /*.howbox .playIcon {
+        top: calc(50% - 17px);
+        left: calc(50% - 17px);
+        width: 34px;
+    } */
+    .mainform .formSectionTitle {
+        margin: 15px 0 25px;
+    }
+    .box.sociallinks ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .box.websitebox ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .righttext {
+        font-size: 14px;
+    }
+    .righttext i {
+        font-size: 18px;
+    }
+    .feildOuter {
+        padding: 0 10px;
+    }
+    .feildOption span {
+        width: 48%;
+    }
+    .addressBox h4 , .addressBox h5{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .payment-head .paymentList li {
+        margin-right: 15px;
+    }
+    .payment-head {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .anaysis-section p {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .avalableCreditBox h4 {
+        font-size: 32px;
+    }
+.line-title {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.detail-info .left-info {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.detail-info .rightInfo {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+    .detailpage .box {
+        padding: 20px 15px;
+    }
+    .logo {
+        padding-right: 15px;
+        margin-right: 10px;
+    }
+    .logo img{
+        width:138px;
+    }
+    .creditAmount {
+        margin-right: 30px;
+    }
+    .mainNavOuter .mainNav ul li {
+        margin-right: 25px;
+    }
+    .mainNavOuter .mainNav ul li a {
+        font-size: 14px;
+    }
+    .mainNavOuter .mainNav ul li a i {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .logouploadSec .howbox .imgbox img , .howbox .imgbox .img-responsive.ng-isolate-scope {
+        object-fit: contain;       
+    }
+    .mainform  .fieldOuter label {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .howbox .closeBtn {
+        right: 4px;
+       
+        background-size: 100% 100%;
+    }
+    .bottomBtn {
+        margin-top: 30px;
+    }
+    .mainform  .fieldOuter input, .mainform  .fieldOuter select {
+        padding: 10px 10px;
+        width: 100%;   
+        font-size: 14px;
+    }
+    .mainform  .fieldOuter.uploadbtn h3 {
+        font-size: 13px;
+        padding: 12px;
+    }
+    .mainform  .fieldOuter.uploadbtn label {
+        padding: 20px 0;
+        min-height: 105px;
+        font-size: 14px;
+   }
+   .mainform  .fieldOuter.uploadbtn > div {
+        width: 100%;
+    }
+    .mainform  .fieldOuter.text-right label{
+        margin-left: 0;
+    }
+    .mainform  .fieldOuter textarea {
+        width: 100%;
+    }
+    .box h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+     .feildOuter {
+    width: 50%;
+    padding: 0 15px;
+}
+.feildOuter.feildOption {
+    width: 50%;
+}
+.feildOuter .checklist label {
+    font-size: 13px;
+}
+.dashboardCntnt .titleText h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+ .leftCntnt > span {
+       font-size: 12px;
+    }
+      .productDetail {
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    .productSect {
+        margin-right: 0;
+    }
+        .productDetail p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 767px) {
+    .tableOuter .partnerSearch .searchbar {
+        max-width: 360px;
+    }
+  footer#pwdPage {
+    position: static;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+main.forgotPassword .backtosignin {
+    margin-top: 15px;
+}
+.formOuter_bl .formBtn {
+    margin-top: 5px;
+}
+main.forgotPassword .backtosignin a {
+   font-size: 14px;
+}
+main.forgotPassword .contentOuter_bl .content_area_bl .title {
+    font-size: 18px;
+}
+    .payment-head .paymentList li {
+    margin-right: 0;
+    display: block;
+}
+.payment-head {
+    font-size: 14px;
+}
+.box.storeMember .list {
+    padding-top: 15px;
+}
+    .dashboardCntnt .mainTitle .titleIcon i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+   .DeliecveryOption.mainform  .formSectionTitle {
+    margin: 0px 0 20px;
+}
+    .adminPage header .container , .adminPage .mainNavOuter .container , .adminPage .navbar-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    .detail-info .left-info {
+    margin-bottom: 5px;
+}
+.mainform  .formSectionTitle {
+    margin: 15px 0 20px;
+}
+.box.storeMember .list span {
+    margin-bottom: 15px;
+    display: block;
+}
+
+    .text-right.rightCntnt {
+    text-align: left;
+}
+
+    .leftCntnt {
+        margin-bottom: 10px;
+    }
+    .topHeader {
+    padding: 10px 0;
+}
+    .logo img {
+        width: 115px;
+    }
+    .table.customTable tr th {
+        padding: 8px 10px;
+    }
+    .tableOuter .partnerSearch .searchbar input[type="text"] {
+        padding:0 5px 8px 5px;
+        font-size: 13px;
+    }
+    .tableOuter .partnerSearch .searchbar button {
+        right: 17px;
+        top: 0;
+    }
+    .table.customTable tr td {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+    .partnerSearch h4 {
+        font-size: 15px;
+        padding-left: 0;
+    }
+    .tableOuter .partnerSearch {
+        padding: 10px 10px;
+    }
+    .logouploadSec .howbox .imgbox img, .howbox .imgbox .img-responsive.ng-isolate-scope {
+        object-fit: none;
+    }
+    .howbox .imgbox::before {
+        padding-bottom: 70%;
+    }
+    .mainTitle {
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 100%;
+    } 
+    .mainform  .formSectionTitle h2 .textBg {
+        font-size: 18px;
+    }
+    .mainform  .formSectionTitle h2::after {
+        top: calc(50% - 2px);
+    }
+    .mainform.createDeliverypage  .formSectionTitle {
+        margin: 20px 0 30px;
+    }
+    .titleText.displaymidle {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .dashboardCntnt .titleText h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .dashboardCntnt .titleText span {
+        font-size: 13px;
+        padding: 0;
+    }
+    .dashboardCntnt {
+        padding: 20px 15px;
+        min-height: calc(100vh - 164px);
+    }
+    .themeBtn {
+        font-size: 14px;
+        padding: 8px 30px;
+        border-width: 1px;
+        text-align: center;
+    }    
+    .mainNavOuter .mainNav ul li {
+        margin-right: 0;
+        display: block;
+    }
+    .minusPlus{
+        margin-bottom: 8px;
+    }
+    .minusPlus button {
+        padding: 5px 10px;
+    }
+    .minusPlus input {
+        width: 60px;
+    }
+    .deliveryOptionsInfo .form-control.custmInput {
+        font-size: 14px;
+        padding: 10px 10px;
+        min-width: 10px;
+        max-width: 100%;
+    }
+    footer {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .report-btns .themeBtn {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .bottomBtn .themeBtn {
+   margin-bottom: 5px;
+        text-align: center;
+}
+    .table.customTable.artical-table tr td:first-child {
+        width: auto;
+    }
+    .customTabs {
+        margin-top: 10px;
+    }
+    .customTabContent .title {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    .customTabs ul li a {
+        padding: 8px 5px;
+        min-width: 120px;
+    }
+    .managebtn {
+        top: -8px;
+    }
+    .bychoice strong {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .mainform  .formSectionTitle h2 .textBg {
+        padding-right: 4px;
+    }
+   .contentOuter_bl .content_area_bl .subtitle {
+     font-size: 13px;
+}
+.formOuter_bl {
+    margin-top: 15px;
+}
+.formOuter_bl .formBtn input {
+    font-size: 14px;
+    padding: 10px 35px;
+    border-width: 1px;
+}
+.contentOuter_bl .content_area_bl {
+    display: block;
+    padding: 40px 0;
+}
+main.beforelogin {
+    min-height: 100vh;
+    background-attachment: fixed;
+    height: auto;
+}
+.formOuter_bl .fieldOuter_bl input {
+    padding: 8px 10px;
+}
+.formOuter_bl .fieldOuter_bl label {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+}
+@media only screen and (max-width: 479px) {
+    .formOuter_bl .keepLogin.fieldOuter_bl div {
+    padding: 0;
+    border-right: 0 none;
+    width: 100%;
+    margin-top: 5px;
+}
+    .bottomBtn a:first-child {
+    margin-right: 0;
+}
+.bottomBtn .themeBtn , .report-btns .themeBtn {
+    display: inline-block;
+    width: 100%;
+}
+    .feildOuter {
+        width: 100%;
+    }
+    .feildOuter.feildOption {
+        width: 100%;
+    }
+    .feildOuter .checklist {
+        margin: 5px 0;
+    }
+    .feildOption span {
+        text-align: right;
+    }
+}

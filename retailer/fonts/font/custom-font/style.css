@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?7dkbgv');
+  src:  url('fonts/icomoon.eot?7dkbgv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7dkbgv') format('truetype'),
+    url('fonts/icomoon.woff?7dkbgv') format('woff'),
+    url('fonts/icomoon.svg?7dkbgv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram-logo:before {
+  content: "\e93a";
+}
+.icon-minus:before {
+  content: "\e938";
+}
+.icon-plus:before {
+  content: "\e939";
+}
+.icon-bell:before {
+  content: "\e937";
+}
+.icon-accountdetail:before {
+  content: "\e92e";
+}
+.icon-contact:before {
+  content: "\e92f";
+}
+.icon-creditcard:before {
+  content: "\e930";
+}
+.icon-debit:before {
+  content: "\e931";
+}
+.icon-insta:before {
+  content: "\e932";
+}
+.icon-netbanking:before {
+  content: "\e933";
+}
+.icon-order:before {
+  content: "\e934";
+}
+.icon-traffic:before {
+  content: "\e935";
+}
+.icon-wallet:before {
+  content: "\e936";
+}
+.icon-help:before {
+  content: "\e92d";
+}
+.icon-manageProduct:before {
+  content: "\e92c";
+}
+.icon-mobile:before {
+  content: "\e92b";
+}
+.icon-minusdown:before {
+  content: "\e929";
+}
+.icon-plusup:before {
+  content: "\e92a";
+}
+.icon-images:before {
+  content: "\e925";
+}
+.icon-logo:before {
+  content: "\e926";
+}
+.icon-videoicon:before {
+  content: "\e927";
+}
+.icon-web:before {
+  content: "\e928";
+}
+.icon-analysis:before {
+  content: "\e924";
+}
+.icon-products:before {
+  content: "\e921";
+}
+.icon-reporticon:before {
+  content: "\e922";
+}
+.icon-retailstore:before {
+  content: "\e923";
+}
+.icon-upload2:before {
+  content: "\e920";
+}
+.icon-stroked-megnifire:before {
+  content: "\e91f";
+}
+.icon-radio-style:before {
+  content: "\e91e";
+}
+.icon-customerIcon:before {
+  content: "\e91a";
+}
+.icon-delete:before {
+  content: "\e91b";
+}
+.icon-edit:before {
+  content: "\e91c";
+}
+.icon-partnersIcon:before {
+  content: "\e91d";
+}
+.icon-user-group:before {
+  content: "\e914";
+}
+.icon-question-mark:before {
+  content: "\e915";
+}
+.icon-dropicon:before {
+  content: "\e916";
+}
+.icon-hand-card:before {
+  content: "\e917";
+}
+.icon-adduser:before {
+  content: "\e918";
+}
+.icon-megnifire:before {
+  content: "\e919";
+}
+.icon-down-arrow:before {
+  content: "\e913";
+}
+.icon-reports:before {
+  content: "\e90d";
+}
+.icon-analyses:before {
+  content: "\e90e";
+}
+.icon-code:before {
+  content: "\e90f";
+}
+.icon-upload:before {
+  content: "\e910";
+}
+.icon-manage-patners:before {
+  content: "\e911";
+}
+.icon-homefill:before {
+  content: "\e912";
+}
+.icon-list:before {
+  content: "\e90b";
+}
+.icon-arrow-down-angled:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-sharing:before {
+  content: "\e90a";
+}
+.icon-home:before {
+  content: "\e905";
+}
+.icon-cards:before {
+  content: "\e906";
+}
+.icon-truck:before {
+  content: "\e907";
+}
+.icon-reminder:before {
+  content: "\e908";
+}
+.icon-scanner:before {
+  content: "\e909";
+}
+.icon-check:before {
+  content: "\e904";
+}
+.icon-linkedIn:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+.icon-signin:before {
+  content: "\e900";
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1 , maximum-scale=1 , minimum-scale=1" name="viewport">
+    <title>Scanshop | Edit Account Detail</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--font-css-->
+    <link href="fonts/font/stylesheet.css" rel="stylesheet" />
+    <!--custom-font-css-->
+    <link href="fonts/font/custom-font/style.css" rel="stylesheet" />
+    <!--main-css-->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!--bootstrap-js-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <main class="mainOuter adminPage afterlogin">
+       <header>
+            <div class="container">
+                <div class="topHeader">
+                    <div class="row">                        
+                        <div class="col-xs-12 col-sm-6 col-md-6 leftCntnt">
+                            <div class="logo displaymidle">
+                                <img src="images/blueLogo.png" alt="blueLogo">
+                            </div>
+                            <span class="displaymidle">Scanshop Admin Platform</span>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 text-right rightCntnt">
+                            
+                            <div class="creditAmount displaymidle">
+                                <span class="displaymidle">Credit: &euro;</span><label class="displaymidle"><select>
+                                    <option>00.00</option>
+                                    <option>01.00</option>
+                                </select>
+                                </label>
+                            </div>
+
+                            <div class="userInfo displaymidle">
+                                <div class="userImg displaymidle">
+                                    <img src="images/user-img.png" alt="user-img">
+                                </div>
+                                <div class="dropdown displaymidle">
+                                <button class="dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                    <i class="icon-down-arrow"></i>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
+                                </ul>
+                              </div>
+
+                            </div>
+                            <div class="navbar-header displaymidle">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="mainNavOuter navbar">
+                    <div class="container">
+                        
+                        <div class="mainNav collapse navbar-collapse" id="myNavbar">
+                            <ul>
+                                <li class="active">
+                                    <a href="#"><i class="icon-homefill"></i><span>Home</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-manageProduct"></i><span>Manage Products</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-images"></i><span>Manage Images</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-code"></i><span>Generate codes</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-upload"></i><span>Upload</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-help"></i><span>Help</span></a>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <section class="dashboardCntnt">
+            <div class="container">
+                <div class="row">
+                <div class="mainTitle">
+                    <div class="titleText displaymidle">
+                        <h2>Edit Account Details</h2>
+                        <span>Home > <samp>Edit Account Details</samp></span>
+                    </div>
+                </div>      
+                </div>
+
+                <div class="mainform editPartnerDetail row">
+                    <form>
+                        <div class="row">
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Owner Name</label>
+                                <input type="text"  placeholder="Jack Wilson">
+                            </div>
+
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>Owner Email ID</label>
+                                <input type="text" placeholder="jack@gmail.com">
+                            </div>
+
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Company Name</label>
+                                <input type="email" placeholder="Jack Store">
+                            </div>
+
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>Trading Name</label>
+                                <input type="email" placeholder="Jack Traders Pvt. Ltd.">
+                            </div>
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Stripe Id</label>
+                                <input type="text" name="name" placeholder="jack@stripe.com">
+                            </div>
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6  text-right">
+                                <label>Customer Service Telephone Number</label>
+                                <input type="text" name="name" placeholder="999-999-9999">
+                            </div>
+
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Customer Service Email Address</label>
+                                <input type="text" name="name" placeholder="service@jackstore.com">
+                            </div>
+
+                            <div class="col-xs-12 formSectionTitle">
+                                <h2><span class="textBg">Social Media Links</span></h2>
+                            </div>
+
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Facebook</label>
+                                <input type="text" name="name" placeholder="www.Facebook.com/suyhkjhd">
+                            </div>
+                            
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>LinkedIN</label>
+                                <input type="text" name="name" placeholder="www.Linkedin.com/freshstore">
+                            </div>
+                            
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6">
+                                <label>Twitter</label>
+                                <input type="text" name="name" placeholder="www.twitter.com/freshstore">
+                            </div>
+                            
+                            <div class="fieldOuter col-xs-12 col-sm-6 col-md-6 text-right">
+                                <label>Website</label>
+                                <input type="text" name="name" placeholder="www.google.com/freshstore">
+                            </div>
+                            <div class="col-xs-12 formSectionTitle">
+                                <h2><span class="textBg">Store Members</span> <span class="pull-right themeBtn managebtn"><i class="icon-user-group"></i> Manage</span></h2>
+                            </div>
+                            <div  class="col-xs-12">
+                                <div class="col-sm-6  box storeMember">
+                                    <div class="row list">
+                                        <div class="col-sm-2"><span class="no">1</span></div>
+                                        <div class="col-sm-3"><strong>Role :</strong><span>Admin</span></div>
+                                        <div class="col-sm-3"><strong>Name</strong><span>Mark</span></div>
+                                        <div class="col-sm-4"><strong>Email</strong><span>mark@gmail.com</span></div>
+                                    </div>
+                                    <div class="row list">
+                                        <div class="col-sm-2"><span class="no">2</span></div>
+                                        <div class="col-sm-3"><strong>Role :</strong><span>Admin</span></div>
+                                        <div class="col-sm-3"><strong>Name</strong><span>Mark</span></div>
+                                        <div class="col-sm-4"><strong>Email</strong><span>mark@gmail.com</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 formSectionTitle witHelp">
+                                <h2><span class="textBg">Delivery Options</span><span class="required">*</span><i class="icon-reports"></i></h2>
+                            </div>
+
+                            <div class="col-xs-12">
+                                <div class="radioBtn displaymidle">
+                                    <label>
+                                        <input type="radio" name="delivery-option">
+                                        <span></span>
+                                    </label>
+                                    <span>Default</span>
+                                </div>
+
+                                <div class="radioBtn displaymidle">
+                                    <label>
+                                        <input type="radio" name="delivery-option">
+                                        <span></span>
+                                    </label>
+                                    <span>My choice</span>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-md-6 deliveryOptionsInfo bychoice">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <strong>Setup your own delivery options and prices</strong> <a href="#" class="themeBtn">Create</a> 
+                                    </div>
+                                </div>                             
+                            </div>
+                            <div class="col-xs-12 bottomBtn">
+                                <a href="#" class="themeBtn">Save</a>
+                                <a href="#" class="themeBtn grey">Cancel</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="copyright_bs text-center">
+                <p>Copyright© 2010 - 2018 <span>Scan Shop</span>, All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

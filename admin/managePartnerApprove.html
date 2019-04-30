@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1 , maximum-scale=1 , minimum-scale=1" name="viewport">
+    <title>Scanshop | Manage Partner</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--font-css-->
+    <link href="fonts/font/stylesheet.css" rel="stylesheet" />
+    <!--custom-font-css-->
+    <link href="fonts/font/custom-font/style.css" rel="stylesheet" />
+    <!--main-css-->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!--bootstrap-js-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <main class="mainOuter adminPage afterlogin">
+        <header>
+            <div class="container">
+                <div class="topHeader">
+                    <div class="row">                        
+                        <div class="col-xs-12 col-sm-6 col-md-6 leftCntnt">
+                            <div class="logo displaymidle">
+                                <img src="images/blueLogo.png" alt="blueLogo">
+                            </div>
+                            <span class="displaymidle">Scanshop Admin</span>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 text-right rightCntnt">
+                            
+                            <div class="creditAmount displaymidle">
+                                <span class="displaymidle">Credit: &euro;</span><label class="displaymidle"><select>
+                                    <option>00.00</option>
+                                    <option>01.00</option>
+                                </select>
+                                </label>
+                            </div>
+
+                            <div class="userInfo displaymidle">
+                                <div class="userImg displaymidle">
+                                    <img src="images/user-img.png" alt="user-img">
+                                </div>
+                                <div class="dropdown displaymidle">
+                                <button class="dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                    <i class="icon-down-arrow"></i>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
+                                </ul>
+                              </div>
+
+                            </div>
+                            <div class="navbar-header displaymidle">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="mainNavOuter navbar">
+                    <div class="container">
+                        
+                        <div class="mainNav collapse navbar-collapse" id="myNavbar">
+                            <ul>
+                                <li class="active">
+                                    <a href="#"><i class="icon-homefill"></i><span>Home</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-manage-patners"></i><span>Manage Partners</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-upload"></i><span>Upload</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-code"></i><span>Generate codes</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-analyses"></i><span>Analysis</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-reports"></i><span>Reports</span></a>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <section class="dashboardCntnt">
+            <div class="container">
+                <div class="row">
+                    <div class="mainTitle">
+                        <div class="titleIcon displaymidle">
+                            <i class="icon-manage-patners"></i>
+                        </div>
+
+                        <div class="titleText displaymidle">
+                            <h2>Manage Partner</h2>
+                            <span><samp>Manage Partner</samp></span>
+                        </div>                       
+                    </div>
+                  
+                </div>
+                <div class="row">
+                    <div class="customTabs">
+                        <ul>
+                            <li><a href="managePartnerApprove.html" class="active">Approved</a></li>
+                            <li><a href="managePartnerPending.html">Pending</a></li>                         
+                        </ul>
+                    </div>
+                    <div class="customTabContent">
+                        <!-- Approved  section start -->
+                            <div class="tableOuter">
+                                <div class="partnerSearch">
+                                    <form class="row">
+                                        <div class="col-sm-4 searchbar">
+                                            <input type="text" name="search" placeholder="Search Name / Account Number">
+                                            <button type="submit"><i class="icon-stroked-megnifire"></i></button>
+                                        </div>                           
+                                    </form>
+                                </div>
+                                 <div class="table-responsive">
+                                    <table class="table customTable approvedtable">
+                                    <thead>
+                                        <tr>
+                                            <th>Partner Number</th>
+                                            <th>Partner Name</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>012568</td>
+                                            <td>Alexandra</td>
+                                            <td class="optActive">Active</td>
+                                        </tr>
+                                        <tr>
+                                            <td>012589</td>
+                                            <td>Bernadette</td>
+                                            <td class="">Inactive</td>
+                                        </tr>
+                                        <tr>
+                                            <td>012568</td>
+                                            <td>Alexandra</td>
+                                            <td class="optSusp">Suspended</td>
+                                        </tr>
+                                        <tr>
+                                            <td>012589</td>
+                                            <td>Bernadette</td>
+                                            <td class="optActive">Inactive</td>
+                                        </tr>
+                                        <tr>
+                                            <td>012568</td>
+                                            <td>Alexandra</td>
+                                            <td class="optActive">Active</td>
+                                        </tr>
+                                        <tr>
+                                            <td>012568</td>
+                                            <td>Alexandra</td>
+                                            <td class="optActive">Inactive</td>
+                                        </tr>
+                                        <tr>
+                                            <td>012568</td>
+                                            <td>Alexandra</td>
+                                           <td class="optSusp">Suspended</td>
+                                        </tr>
+                                        <tr>
+                                            <td>012589</td>
+                                            <td>Bernadette</td>
+                                            <td class="optActive">Inactive</td>
+                                        </tr>
+                                        <tr>
+                                            <td>012568</td>
+                                            <td>Alexandra</td>
+                                           <td class="optSusp">Suspended</td>
+                                        </tr>
+                                        <tr>
+                                            <td>012589</td>
+                                            <td>Bernadette</td>
+                                            <td class="optActive">Inactive</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- Approved section end -->
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <footer>
+            <div class="copyright_bs text-center">
+                <p>Copyright© 2010 - 2018 <span>Scan Shop</span>, All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

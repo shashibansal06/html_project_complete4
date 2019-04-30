@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1 , maximum-scale=1 , minimum-scale=1" name="viewport">
+    <title>Scanshop | Generate Code for selected partners</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--font-css-->
+    <link href="fonts/font/stylesheet.css" rel="stylesheet" />
+    <!--custom-font-css-->
+    <link href="fonts/font/custom-font/style.css" rel="stylesheet" />
+    <!--main-css-->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!--bootstrap-js-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <main class="mainOuter adminPage afterlogin">
+        <header>
+            <div class="container">
+                <div class="topHeader">
+                    <div class="row">                        
+                        <div class="col-xs-12 col-sm-6 col-md-6 leftCntnt">
+                            <div class="logo displaymidle">
+                                <img src="images/blueLogo.png" alt="blueLogo">
+                            </div>
+                            <span class="displaymidle">Scanshop Admin Platform</span>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 text-right rightCntnt">
+                            
+                            <div class="creditAmount displaymidle">
+                                <span class="displaymidle">Credit: &euro;</span><label class="displaymidle"><select>
+                                    <option>00.00</option>
+                                    <option>01.00</option>
+                                </select>
+                                </label>
+                            </div>
+
+                            <div class="userInfo displaymidle">
+                                <div class="userImg displaymidle">
+                                    <img src="images/user-img.png" alt="user-img">
+                                </div>
+                                <div class="dropdown displaymidle">
+                                <button class="dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                    <i class="icon-down-arrow"></i>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
+                                </ul>
+                              </div>
+
+                            </div>
+                            <div class="navbar-header displaymidle">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="mainNavOuter navbar">
+                    <div class="container">
+                        
+                        <div class="mainNav collapse navbar-collapse" id="myNavbar">
+                            <ul>
+                                <li class="active">
+                                    <a href="#"><i class="icon-homefill"></i><span>Home</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-manageProduct"></i><span>Manage Products</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-images"></i><span>Manage Images</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-code"></i><span>Generate codes</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-upload"></i><span>Upload</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-help"></i><span>Help</span></a>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <section class="dashboardCntnt">
+            <div class="container">
+                 <div class="row">
+                <div class="mainTitle">
+                    <div class="titleIcon displaymidle">
+                        <i class="icon-code"></i>
+                    </div>
+
+                    <div class="titleText displaymidle">
+                        <h2>Generate Code</h2>
+                        <span>Home > <samp>Manage Credits</samp></span>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="tableOuter">
+                    <div class="partnerSearch">
+                        <form class="row">
+                            <div class="col-sm-6 col-md-4 searchbar">
+                                <input type="text" name="search" placeholder="Search SKU/Name">
+                                <button type="submit"><i class="icon-stroked-megnifire"></i></button>
+                            </div>
+                            <div class="feildOuter">
+                                <div class="checklist">
+                                    <label>Embed product name</label>
+                                    <div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="checklist">
+                                    <label>Name code by product name</label>
+                                    <div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feildOuter">
+                                <div class="checklist">
+                                    <label>Embed your logo</label>
+                                    <div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="checklist">
+                                    <label>Name code by product SKU</label>
+                                    <div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feildOuter feildOption">
+                                <div class="checklist">
+                                    <label>Colour :</label>
+                                    <span>Black</span>                                    
+                                </div>
+                                <div class="checklist">
+                                    <label>Format :</label>
+                                    <span>PNG</span>        
+                                </div>                                
+                            </div>
+                        </form>
+                    </div>
+                     <div class="table-responsive">
+                        <table class="table customTable">
+                        <thead>
+                            <tr>
+                                <th><div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </th>
+                                <th>Item Group ID</th>
+                                <th>Brand Name</th>
+                                <th>Product ID</th>
+                                <th>Product Name</th>
+                                <th>Description</th>
+                                <th>Product Category id</th>
+                                <th>Price</th>
+                                <th>Adult Product, 18 yrs</th>
+                                <th>Color</th>
+                                <th>Size</th>
+                                <th>Flavour</th>
+                                <th>Quantity</th>
+                                <th>Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> 
+                                    <div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>Retail Store Name</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>                                
+                                <td>Lorem</td>                                
+                            </tr>  
+                            <tr>
+                                <td> 
+                                    <div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>Retail Store Name</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>                                
+                                <td>Lorem Ipsum is simply</td>                                
+                            </tr>  
+                            <tr>
+                                <td> 
+                                    <div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>Retail Store Name</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>                                
+                                <td>Lorem Ipsum is simply</td>                             
+                            </tr>  
+                            <tr>
+                                <td> 
+                                    <div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>Retail Store Name</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>                                
+                                <td>Lorem Ipsum is simply</td>                                
+                            </tr>  
+                            <tr>
+                                <td> 
+                                    <div class="radio-outer">
+                                        <label class="z_checked">
+                                            <input type="checkbox" name="checkboxInline">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>Retail Store Name</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem Ipsum is simply</td>
+                                <td>Lorem</td>                                
+                                <td>Lorem Ipsum is simply</td>                                   
+                            </tr>                           
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+                <div class="col-xs-12 bottomBtn">
+                                <a href="#" class="themeBtn">Download</a>
+                            </div>
+                            </div>
+            </div>
+        </section>
+        <footer>
+            <div class="copyright_bs text-center">
+                <p>Copyright© 2010 - 2018 <span>Scan Shop</span>, All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
